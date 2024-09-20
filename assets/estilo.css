@@ -14,7 +14,7 @@ header {
     align-items: center;
     justify-content: center;
     position: relative;
-    background-color: darkgoldenrod;
+    background-color: #1E3463;
 }
 
 #islandia img.header {
@@ -25,7 +25,7 @@ header {
     object-fit: contain;
     text-align: center;
     border-radius: 5px;
-    border-color: darkgoldenrod;
+    border-color: rgb(18, 13, 89);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -67,30 +67,30 @@ p {
 }
 
 nav{
-    display: flex; /* Configura o contêiner como um flexbox */
-    justify-content: center; /* Centraliza os itens horizontalmente */
-    align-items: center; /* Centraliza os itens verticalmente, se necessário */
-    gap: 10px; /* Espaçamento entre os botões */
-    margin: 20px 0; /* Margem acima e abaixo do contêiner */
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
 }
 
 .nav-btn {
-    display: inline-block; /* Permite que o link se comporte como um bloco em linha */
-    padding: 10px 20px; /* Adiciona espaço interno ao botão */
-    border: 2px solid darkgoldenrod; /* Define a borda do botão */
-    border-radius: 10px; /* Arredonda os cantos do botão */
-    background-color: #fff; /* Define a cor de fundo do botão */
-    color: darkgoldenrod; /* Define a cor do texto do botão */
-    text-decoration: none; /* Remove o sublinhado dos links */
-    font-size: 16px; /* Define o tamanho da fonte */
-    font-weight: bold; /* Define o peso da fonte */
-    transition: all 0.3s ease; /* Adiciona uma transição suave para todos os efeitos */
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid darkgoldenrod;
+    border-radius: 10px;
+    background-color: #fff;
+    color: darkgoldenrod;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
 }
 
 .nav-btn:hover {
-    transform: scale(1.1); /* Aumenta o tamanho do botão em 10% ao passar o mouse */
-    background-color: darkgoldenrod; /* Altera a cor de fundo ao passar o mouse */
-    color: #fff; /* Altera a cor do texto ao passar o mouse */
+    transform: scale(1.1);
+    background-color: darkgoldenrod;
+    color: #fff;
 }
 
 .rodape{
@@ -105,21 +105,66 @@ nav{
 
 .curiosidades {
     display: flex;
-    flex-direction: column; /* Empilha a imagem e a legenda verticalmente */
-    align-items: center; /* Centraliza horizontalmente os itens dentro do contêiner */
-    margin: 15px; /* Espaço ao redor do contêiner */
-    padding: 0; /* Remove padding */
-    width: auto; /* Remove a largura fixa */
-    text-align: center; /* Centraliza o texto dentro do contêiner */
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    padding: 0; 
+    width: auto;
+    text-align: center;
 }
 
 .curiosidades img {
-    max-width: 100%; /* Ajusta a largura da imagem ao tamanho do contêiner */
-    height: auto; /* Mantém a proporção da imagem */
+    max-width: 100%;
+    height: auto; 
 }
 
 .curiosidades figcaption {
-    margin-top: 8px; /* Espaço entre a imagem e a legenda */
-    font-size: 14px; /* Ajusta o tamanho da fonte conforme necessário */
-    color: #333; /* Cor do texto da legenda, ajuste conforme o design */
+    margin-top: 8px; 
+    font-size: 14px;
+    color: #424242;
+}
+
+/* belezas naturais */
+
+.belezas-naturais{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin: 15px;
+    padding: 0;
+    width: auto;
+    text-align: center; 
+}
+
+.belezas-naturais img{
+    max-width: 100%;
+    height: auto; 
+}
+.belezas-naturais figcaption{
+    margin-top: 8px;
+    font-size: 14px;
+    color: #424242;
+}
+
+/* turismo */
+
+.turismo{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin: 15px;
+    padding: 0;
+    width: auto;
+    text-align: center; 
+}
+
+.turismo img{
+    max-width: 100%;
+    height: auto; 
+}
+
+.turismo figcaption{
+    margin-top: 8px;
+    font-size: 14px;
+    color: #424242;
 }
