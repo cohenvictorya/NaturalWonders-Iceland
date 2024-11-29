@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../assets/estilo.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/estilo.css">
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <title>Belezas Naturais</title>
 </head>
 
@@ -29,78 +30,89 @@
             tirar o fôlego.
         </p>
         <br>
-        <div id="boreal">
+        <div class="topico" data-titulo="boreal">
             <h2>1 - Aurora Boreal</h2>
             <p>
-            <figure class="belezas-naturais">
-                <img src="../img/aurora.gif" alt="A aurora boreal.">
-                <figcaption>A aurora boreal, vista longe das luzes de Reykjavik.</figcaption>
-            </figure>
-            <br>
-            As auroras boreais, ou luzes do norte, são um espetáculo fascinante visível na Islândia, especialmente em
-            regiões ao norte do país e durante os meses de inverno.
-            O fenômeno ocorre quando partículas carregadas do sol, chamadas de vento solar, colidem com o campo
-            magnético da Terra e interagem com a atmosfera.
+                <figure class="belezas-naturais">
+                    <img src="../img/aurora.gif">
+                    <figcaption>A aurora boreal, vista longe das luzes de Reykjavik.</figcaption>
+                </figure>
+                <br>
+                As auroras boreais, ou luzes do norte, são um espetáculo fascinante visível na Islândia, especialmente em
+                regiões ao norte do país e durante os meses de inverno.
+                O fenômeno ocorre quando partículas carregadas do sol, chamadas de vento solar, colidem com o campo
+                magnético da Terra e interagem com a atmosfera.
             </p>
-            <p>
-                Na Islândia, as melhores épocas para observar as auroras boreais são entre setembro e abril, quando as
-                noites são mais longas e escuras, proporcionando
-                condições ideais para visualizar essas cores vibrantes no céu. O fenômeno é mais visível em locais
-                afastados da poluição luminosa, como em áreas rurais ou
-                nas regiões do interior da Islândia.
-            </p>
+        
+            <div class="paragrafo2">
+                <p>
+                    Na Islândia, as melhores épocas para observar as auroras boreais são entre setembro e abril, quando as
+                    noites são mais longas e escuras, proporcionando
+                    condições ideais para visualizar essas cores vibrantes no céu. O fenômeno é mais visível em locais
+                    afastados da poluição luminosa, como em áreas rurais ou
+                    nas regiões do interior da Islândia.
+                </p>
+            </div>
+        
+            <button class="lerMaisBtn">Ler mais...</button>
         </div>
-        <br>
-        <div id="praia">
+        
+        <div class="topico" data-titulo="praia">
             <h2>2 - Praia Reynisfjara</h2>
             <p>
-            <figure class="belezas-naturais">
-                <img src="../img/black-beach.jpg" alt="A praia Reynisfjara.">
-                <figcaption>A praia de areia negra de Reynisfjara.</figcaption>
-            </figure>
-            <br>
-            A praia de areia negra de Reynisfjara, localizada na costa sul da Islândia, é uma das mais icônicas do país.
-            Este fenômeno geológico ocorre devido ao processo de erupções vulcânicas que derramam lava basáltica para o
-            oceano.
-            Quando a lava esfria rapidamente ao entrar em contato com a água, ela se fragmenta em partículas finas e
-            escuras, formando a areia negra característica.
+                <figure class="belezas-naturais">
+                    <img src="../img/black-beach.jpg" alt="A praia Reynisfjara.">
+                    <figcaption>A praia de areia negra de Reynisfjara.</figcaption>
+                </figure>
+                <br>
+                A praia de areia negra de Reynisfjara, localizada na costa sul da Islândia, é uma das mais icônicas do país.
+                Este fenômeno geológico ocorre devido ao processo de erupções vulcânicas que derramam lava basáltica para o
+                oceano.
             </p>
-            <p>
-
-                Um fato curioso sobre Reynisfjara é que suas colunas de basalto, que se erguem dramaticamente da praia,
-                são formadas pela solidificação e contração da lava,
-                criando uma estrutura geométrica impressionante que tem sido comparada a uma catedral natural.
-            </p>
+        
+            <div class="paragrafo2">
+                <p>
+                    Um fato curioso sobre Reynisfjara é que suas colunas de basalto, que se erguem dramaticamente da praia,
+                    são formadas pela solidificação e contração da lava,
+                    criando uma estrutura geométrica impressionante que tem sido comparada a uma catedral natural.
+                </p>
+            </div>
+        
+            <button class="lerMaisBtn">Ler mais...</button>
         </div>
-        <br>
-        <div id="cachoeira">
+        
+        <div class="topico" data-titulo="cachoeira">
             <h2>3 - Cachoeira Skogafoss</h2>
             <p>
-            <figure class="belezas-naturais">
-                <img src="../img/waterfall.jpg" alt="A cachoeira Skogafoss na primavera.">
-                <figcaption>A cachoeira Skogafoss na primavera.</figcaption>
-            </figure>
-            <br>
-            Skógafoss é uma das mais impressionantes e icônicas cachoeiras da Islândia, localizada na região sul da
-            ilha, perto da pequena vila de Skógar.
-            Esta cachoeira, com uma altura de 60 metros e uma largura de 25 metros, é uma das mais grandes do país e faz
-            parte do rio Skógá, que deságua no Oceano Atlântico.
+                <figure class="belezas-naturais">
+                    <img src="../img/waterfall.jpg" alt="A cachoeira Skogafoss na primavera.">
+                    <figcaption>A cachoeira Skogafoss na primavera.</figcaption>
+                </figure>
+                <br>
+                Skógafoss é uma das mais impressionantes e icônicas cachoeiras da Islândia, localizada na região sul da
+                ilha, perto da pequena vila de Skógar.
+                Esta cachoeira, com uma altura de 60 metros e uma largura de 25 metros, é uma das mais grandes do país e faz
+                parte do rio Skógá, que deságua no Oceano Atlântico.
             </p>
-            <p>
-                Uma curiosidade interessante sobre Skógafoss é que, em dias ensolarados, a névoa gerada pela queda
-                d'água frequentemente cria um
-                <a href="https://youtu.be/h3drZNZ02xU?si=L0m_AZmjngtyPXDL" target="_blank"
-                    alt="cachoeira Skogafoss, maio de 2024.">arco-íris duplo</a>,
-                proporcionando um espetáculo visual deslumbrante.
-            </p>
-            <p>
-                A formação de Skógafoss está ligada à atividade glacial e ao vulcanismo da região. Durante a última era
-                glacial, grandes volumes de água derretida
-                esculpiram o vale onde a cachoeira se encontra. Além disso, o topo da cachoeira é formado por uma linha
-                de falhas tectônicas,
-                e a força contínua da água ao longo dos anos contribuiu para a formação e manutenção de sua beleza
-                majestosa.
-            </p>
+        
+            <div class="paragrafo2">
+                <p>
+                    Uma curiosidade interessante sobre Skógafoss é que, em dias ensolarados, a névoa gerada pela queda
+                    d'água frequentemente cria um
+                    <a href="https://youtu.be/h3drZNZ02xU?si=L0m_AZmjngtyPXDL" target="_blank"
+                        alt="cachoeira Skogafoss, maio de 2024.">arco-íris duplo</a>,
+                    proporcionando um espetáculo visual deslumbrante.
+                </p>
+                <p>
+                    A formação de Skógafoss está ligada à atividade glacial e ao vulcanismo da região. Durante a última era
+                    glacial, grandes volumes de água derretida
+                    esculpiram o vale onde a cachoeira se encontra. Além disso, o topo da cachoeira é formado por uma linha
+                    de falhas tectônicas,
+                    e a força contínua da água ao longo dos anos contribuiu para a formação e manutenção de sua beleza
+                    majestosa.
+                </p>
+            </div>       
+            <button class="lerMaisBtn">Ler mais...</button>
         </div>
         <br>
         <nav>
@@ -117,6 +129,7 @@
         <br>
         <b>Email para contato</b>: victoryastone@esbam.edu.br | kevinbastos@esbam.edu.br
     </footer>
+    <script src="../assets/js/belezas-naturais.js"></script>
 </body>
 
 </html>

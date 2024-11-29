@@ -71,6 +71,16 @@ p {
     margin-bottom: 20px; 
 }
 
+.clicar{
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.clicar:hover {
+    color: darkblue;
+}
+
 nav{
     display: flex; 
     justify-content: center;
@@ -78,6 +88,17 @@ nav{
     gap: 10px;
     margin: 20px 0;
 }
+
+#mapa-container{
+    margin-top: 20px;
+    display: none;
+}
+
+.mapa{
+    height: 400px;
+    width: 100%;
+}
+
 
 .nav-btn {
     display: inline-block;
@@ -150,6 +171,10 @@ nav{
     color: #424242;
 }
 
+.paragrafo2{
+    display: none;
+}
+
 /* -----TURISMO----- */
 
 .turismo{
@@ -206,4 +231,101 @@ nav{
 #art-list li {
     margin-bottom: 10px;
     line-height: 1.5;
+}
+
+/* <---FORMULÁRIO - INDEX---> */
+
+.feedback{
+    text-align: center;
+}
+
+.feedback .feedback-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    font-size: 16px;
+    color: white;
+    border: 2px solid darkgoldenrod;
+    border-radius: 10px;
+    background-color: #fff;
+    color: darkgoldenrod;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.feedback .feedback-btn:hover {
+    transform: scale(1.1);
+    background-color: darkgoldenrod;
+    color: #fff;
+}
+
+/* <---FORMULÁRIO - PÁGINA---> */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to right, darkblue, darkgoldenrod);
+
+}
+
+header h1 {
+    color: #ffffff;
+}
+form {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: darkgoldenrod;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-image: linear-gradient(to right, darkblue, darkgoldenrod);
+    transform: scale(0.9);
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-bottom: -10px;
+    padding-bottom: 10px;
 }

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../assets/css/estilo.css">
+    <title>Formulário de Feedback</title>
+</head>
+<body>
+    <header id="formularioFeedback">
+        <h1>FORMULÁRIO DE FEEDBACK: BELEZAS NATURAIS DA ISLÂNDIA</h1>
+    </header>
+    <main>
+        <form id="feedbackForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" placeholder="Digite seu nome">
+            <div id="nameError" class="error"></div>
+            <br>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+            <div id="emailError" class="error"></div>
+            <br>
+            <label for="message">Mensagem de Feedback:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Adoraríamos ouvir sua opinião!"></textarea>
+            <div id="messageError" class="error"></div>
+            <br>
+
+            <button type="submit">Enviar Feedback</button>
+        </form>
+    </main>
+    <nav>
+        <a href="../index.html" class="nav-btn">Voltar</a>
+    </nav>
+    <script src="../assets/js/formulario.js"></script>
+</body>
+</html>
